@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTonic</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <h1>TechTonic</h1>
+            </div>
+            <nav class="header-right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to TechTonic, where we explore the forces that shape our world. Our passion for understanding the
+                Earth’s movements drives us to provide you with the latest insights into tectonics, earthquakes, and
+                volcanoes.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>At TechTonic, we are a team of geologists, seismologists, and experts in plate tectonics. Our mission is
+                to educate the public about tectonic activity, its impact on our environment, and how it shapes our
+                planet.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Research and Analysis</h3>
+                    <p>Dive into our extensive library of articles and research papers on plate tectonics, earthquakes,
+                        and volcanoes. Stay updated with the latest discoveries in tectonic research.</p>
+                </div>
+                <div class="service">
+                    <h3>Educational Resources</h3>
+                    <p>Explore our educational materials designed for students, teachers, and anyone interested in
+                        tectonics. Learn about earthquake preparedness and volcanic activity.</p>
+                </div>
+                <div class="service">
+                    <h3>Interactive Gallery</h3>
+                    <p>View interactive maps showcasing plate boundaries, earthquake epicenters, and volcanic hotspots.
+                        Browse through visual representations of tectonic processes and phenomena.</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Explore our gallery of images and visualizations showcasing tectonic activity, earthquakes, volcanic
+                eruptions, and more.</p>
+            <div class="gallery">
+                <img src="imges/Gemini_Generated_Image_ucp291ucp291ucp2.jpg" alt="Sample Image 1">
+                <img src="imges/Gemini_Generated_Image_ucp295ucp295ucp2.jpg" alt="Sample Image 2">
+                <img src="imges/Gemini_Generated_Image_ucp293ucp293ucp2.jpg" alt="Sample Image 3">
+                <img src="imges/Gemini_Generated_Image_ucp297ucp297ucp2.jpg" alt="Sample Image 4">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-messages"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechTonic. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#social">Follow Us</a>
+        </div>
+    </footer>
+</body>
+
+</html>
